@@ -1,8 +1,10 @@
-"Calculator"
+"Simple calculator"
 
 
 def calculator() -> None:
-    """Calculator."""
+    """Operations +,-,*,/
+    with two integers"""
+    
     no_1 = int(input("enter your first number"))
     operation = input("enter  arithmetic operation  like +,-,*,/")
     no_2 = int(input("enter your  second number"))
